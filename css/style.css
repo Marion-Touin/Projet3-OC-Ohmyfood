@@ -18,6 +18,7 @@ h2{
     background-color: #F8BBD0;
     margin: 0 15%;
 }
+/*en tete du menu*/
 .menu{
     text-align: center;
     font-size: 50px;
@@ -30,5 +31,10 @@ h2{
 .menu__titre{
     font-size: 30px;
     margin: 10px 0;
+}
+/*Partie prélude*/
+.section__menu{
+    display: flex;
+    align-items: center;
 }
 
