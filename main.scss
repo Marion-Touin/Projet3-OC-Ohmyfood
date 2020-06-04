@@ -1,6 +1,7 @@
-$color-header: #00897B;
-$color-titre: #FFEB3B;
-$color-menu: #ffcdd2;
+$color-header: #579C87;
+$color-titre: #FCCA46;
+$color-menu: #FCDFDB;
+$color-police: #3D1319;
 
 body,ul{
     margin: 0;
@@ -21,6 +22,7 @@ body,ul{
     background-color: $color-menu;
     width: 85%;
     margin: 1.5em auto 6em;
+    color: $color-police;
 }
 /*titre entre header et menu*/
 h2{

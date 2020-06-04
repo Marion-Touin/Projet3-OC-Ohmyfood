@@ -6,10 +6,10 @@ body, ul {
 
 /*Partie header*/
 .header {
-  background-color: #00897B;
+  background-color: #579C87;
 }
 .header__titre {
-  color: #FFEB3B;
+  color: #FCCA46;
   text-align: center;
   margin: 0;
   font-size: 5em;
@@ -17,9 +17,10 @@ body, ul {
 }
 
 .main_color {
-  background-color: #ffcdd2;
+  background-color: #FCDFDB;
   width: 85%;
   margin: 1.5em auto 6em;
+  color: #3D1319;
 }
 
 /*titre entre header et menu*/
@@ -96,7 +97,7 @@ h2 {
 
 /*footer*/
 .footer {
-  background-color: #00897B;
+  background-color: #579C87;
 }
 .footer__container {
   display: flex;
@@ -107,10 +108,10 @@ h2 {
   margin: 0 auto;
 }
 .footer__mention {
-  color: #FFEB3B;
+  color: #FCCA46;
 }
 .footer__contact {
-  color: #FFEB3B;
+  color: #FCCA46;
   text-align: end;
 }
 
