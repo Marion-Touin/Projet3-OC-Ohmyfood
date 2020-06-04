@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Le délice des papilles</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <style>a {text-decoration: none;}</style>
 </head>
 <body>
     <!--En-tête de page-->
-    <header>
-        <a href="accueil.html"><h1>ohmyfood</h1></a>
+    <header class="header">
+        <a href="accueil.html"><h1 class="header__titre">ohmyfood</h1></a>
     </header>
     <!--Partie blanche-->
     <h2>Le délice des papilles</h2>
-    <main>
+    <main class="main_color">
         <!--titre menu haut-->
-        <section>
-            <h3>Le délice des papilles</h3>
+        <section class="menu">
+            <h3 class="menu__titre">Le délice des papilles</h3>
         </section>
         <!--Partie pour bien commencer-->
         <section>
-            <div>
-                <img src="img/trait-gauche-menu3.png">
-                <h4>Pour bien commencer</h4>
-                <img src="img/trait-droit-menu3.png">
+            <div class="section__menu">
+                <img class="section__menu--img" src="../img/trait-gauche-menu3.png" alt="trait">
+                <h4 class="section__menu--titre">Pour bien commencer</h4>
+                <img class="section__menu--img" src="../img/trait-droit-menu3.png" alt="trait">
             </div>
-            <div>
-                <ul>
+            <div class="section__liste">
+                <ul class="section__liste--plat">
                     <li>Tartare de thon assaisonné au yuzu</li>
                     <li>Bouchée de homard croustillant et sa farandole de petits légumes</li>
                     <li>Velouté de cèpes aux truffes</li>
                 </ul>
-                <ul>
+                <ul class="section__liste--prix">
                     <li>55€</li>
                     <li>89€</li>
                     <li>56€</li>
@@ -39,18 +41,18 @@
         </section>
         <!--Partie pour bien continuer-->
         <section>
-            <div>
-                <img src="img/trait2-gauche-menu3.png">
-                <h4>Pour bien continuer</h4>
-                <img src="img/trait2-droit-menu3.png">
+            <div class="section__menu">
+                <img class="section__menu--img" src="../img/trait2-gauche-menu3.png" alt="trait">
+                <h4 class="section__menu--titre">Pour bien continuer</h4>
+                <img class="section__menu--img" src="../img/trait2-droit-menu3.png" alt="trait">
             </div>
-            <div>
-                <ul>
+            <div class="section__liste">
+                <ul class="section__liste--plat">
                     <li>Poulet rôti aux herbes de provence et sa crème de truffe</li>
                     <li>Langouste rôtie et ses légumes de saison</li>
                     <li>Velouté de cèpes aux truffes</li>
                 </ul>
-                <ul>
+                <ul class="section__liste--prix">
                     <li>110€</li>
                     <li>225€</li>
                     <li>115€</li>
@@ -59,18 +61,18 @@
         </section>
         <!--Partie pour bien terminer-->
         <section>
-            <div>
-                <img src="img/trait3-gauche-menu3.png">
-                <h4>Pour bien terminer</h4>
-                <img src="img/trait3-droit-menu3.png">
+            <div class="section__menu">
+                <img class="section__menu--img" src="../img/trait3-gauche-menu3.png" alt="trait">
+                <h4 class="section__menu--titre">Pour bien terminer</h4>
+                <img class="section__menu--img" src="../img/trait3-droit-menu3.png" alt="trait">
             </div>
-            <div>
-                <ul>
+            <div class="section__liste">
+                <ul class="section__liste--plat">
                     <li>Farandole de desserts duu chef</li>
                     <li>Crème brulée revisité</li>
                     <li>Tiramisu à la noisette</li>
                 </ul>
-                <ul>
+                <ul class="section__liste--prix">
                     <li>55€</li>
                     <li>60€</li>
                     <li>55€</li>
@@ -79,9 +81,11 @@
         </section>
     </main>
     <!--Pied de page-->
-    <footer>
-        <a href="mentions_legales.html">Mentions légales</a>
-        <p>Contactez-nous</p>
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__mention" href="mentions_legales.html" class="color">Mentions légales</a>
+            <a class="footer__contact" href ="mailto: contact@email.com">Contactez-nous</a>
+        </div>
     </footer>
 </body>
 </html>
