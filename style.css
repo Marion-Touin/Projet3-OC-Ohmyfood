@@ -52,16 +52,14 @@ h2 {
 }
 
 /*En-tête menu*/
-.menu {
-  text-align: center;
-}
 .menu__image {
   width: 10em;
   height: 10em;
 }
 .menu__titre {
   font-size: 3em;
-  margin: 0;
+  width: 9em;
+  margin: 0 auto;
 }
 
 /*Section menu*/
@@ -127,12 +125,52 @@ li {
   padding: 5em;
 }
 
+/*Pour se mettre en appétit*/
+.menu1 {
+  color: #C67412;
+}
+
+.menu2 {
+  color: #A56799;
+}
+
+.menu3 {
+  color: #45993E;
+}
+
+.menu__image {
+  width: 10em;
+  height: 10em;
+}
+.menu__titre2 {
+  font-size: 3em;
+  width: 9em;
+  margin: 0 auto;
+  background: linear-gradient(to right, #C67412, #A56799, #45993E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*ensemble de page*/
 .main_color {
   background-color: #EDEFEF;
   width: 75%;
   margin: 1.5em auto 6em;
   padding: 5em;
+  color: #79C55A;
+}
+
+.menu__image {
+  width: 10em;
+  height: 10em;
+}
+.menu__titre3 {
+  font-size: 3em;
+  width: 9em;
+  margin: 0 auto;
+  background: linear-gradient(to right, #0228DD, #0670F3, #89C7F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

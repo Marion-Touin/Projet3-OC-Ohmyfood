@@ -5,4 +5,15 @@
     width: 75%;
     margin: 1.5em auto 6em;
     padding: 5em;
+    color: $color-police6;
+}
+.menu4{
+    &__titre{
+        font-size: 3em;
+        width: 9em;
+        margin: 0 auto;
+        background: linear-gradient(to right, $color-police4, $color-police5, $color-police6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }

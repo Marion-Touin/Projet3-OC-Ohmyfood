@@ -19,14 +19,14 @@ h2{
 }
 /*En-tête menu*/
 .menu{
-    text-align: center;
     &__image{
         width: 10em;
         height: 10em;
     }
     &__titre{
         font-size: 3em;
-        margin: 0;
+        width: 9em;
+        margin: 0 auto;
     }
 }
 /*Section menu*/
