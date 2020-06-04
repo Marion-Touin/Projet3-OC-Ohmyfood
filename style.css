@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*Partie header*/
+.header {
+  background-color: #00897B;
+}
+.header__titre {
+  color: #FFEB3B;
+  text-align: center;
+  margin: 0;
+  font-size: 5em;
+  padding: 0.5em 0;
+}
+
+.main_color {
+  background-color: #ffcdd2;
+  width: 85%;
+  margin: 1.5em auto 6em;
+}
+
+/*titre entre header et menu*/
+h2 {
+  font-size: 3.5em;
+  text-align: center;
+  margin: 0;
+  padding-top: 1em;
+}
+
+/*En-tête menu*/
+.menu {
+  text-align: center;
+}
+.menu__image {
+  width: 10em;
+  height: 10em;
+}
+.menu__titre {
+  font-size: 3em;
+  margin: 0;
+}
+
+/*Section menu*/
+.section__menu {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section__menu--titre {
+  font-size: 2.5em;
+  text-decoration: none;
+}
+.section__menu--titre:hover {
+  text-decoration: underline;
+}
+.section__menu--img {
+  width: 20em;
+  height: 2.5em;
+}
+
+/*Section liste plats et prix*/
+.section__liste {
+  display: flex;
+  width: 83%;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 2em;
+}
+.section__liste--plat {
+  list-style-type: none;
+}
+.section__liste--prix {
+  list-style-type: none;
+  text-align: end;
+}
+
+/*Partie image et titre bas*/
+.footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+}
+.footer__menu--img {
+  width: 6em;
+  height: 6em;
+}
+.footer__menu--para {
+  font-size: 3.5em;
+}
+
+/*footer*/
+.footer {
+  background-color: #00897B;
+}
+.footer__container {
+  display: flex;
+  font-size: 3em;
+  align-items: center;
+  width: 93%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.footer__mention {
+  color: #FFEB3B;
+}
+.footer__contact {
+  color: #FFEB3B;
+  text-align: end;
+}
+
+/*# sourceMappingURL=style.css.map */

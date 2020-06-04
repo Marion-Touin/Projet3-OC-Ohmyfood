@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu la note enchantée</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <!--En-tête de page-->
-    <header class="color">
-        <a href="accueil.html"><h1 class="header_titre color">ohmyfood</h1></a>
+    <header class="header">
+        <a href="accueil.html"><h1 class="header__titre">ohmyfood</h1></a>
     </header>
     <!--Partie titre-->
     <h2>La note enchantée</h2>
@@ -22,18 +22,18 @@
         <!--Partie prélude-->
         <section>
             <div class="section__menu">
-                <img src="img/trait-gauche-menu1.png" alt="trait gauche">
-                <h4>Prélude</h4>
-                <img src="img/trait-droit-menu1.png" alt="trait droit">
+                <img class="section__menu--img" src="img/trait-gauche-menu1.png" alt="trait gauche">
+                <h4 class="section__menu--titre">Prélude</h4>
+                <img class="section__menu--img" src="img/trait-droit-menu1.png" alt="trait droit">
             </div>
-            <div>
-                <ul>
+            <div class="section__liste">
+                <ul class="section__liste--plat">
                     <li>Ravioles de foie gras accompagnés de leur crème à la truffe</li>
                     <li>Caviar osciètre sur blini à la farine de blé noir</li>
                     <li>Homard et espuma de potiron mariné aux zestes d'orange</li>
                     <li>Foie gras de canard cuit entier, confiture de figue et pain toasté</li>
                 </ul>
-                <ul>
+                <ul class="section__liste--prix">
                     <li>98€</li>
                     <li>115€</li>
                     <li>89€</li>
@@ -44,17 +44,17 @@
         <!--Partie point d'orgue -->
         <section>
             <div class="section__menu">
-                <img src="img/trait-gauche-menu1.png">
-                <h4>Point d'orgue</h4>
-                <img src="img/trait-droit-menu1.png">
+                <img class="section__menu--img" src="img/trait-gauche-menu1.png">
+                <h4 class="section__menu--titre">Point d'orgue</h4>
+                <img class="section__menu--img" src="img/trait-droit-menu1.png">
             </div>
-            <div>
-                <ul>
+            <div class="section__liste">
+                <ul class="section__liste--plat">
                     <li>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</li>
                     <li>Langoustine poêlée, purée de patate douce</li>
                     <li>Mijoté de queue de boeuf et riz sauvage aux zests de citron</li>
                 </ul>
-                <ul>
+                <ul class="section__liste--prix">
                     <li>102€</li>
                     <li>205€</li>
                     <li>169€</li>
@@ -64,12 +64,12 @@
         <!--Partie mouvement final-->
         <section>
             <div class="section__menu">
-                <img src="img/trait-gauche-menu1.png">
-                <h4>Mouvement final</h4>
-                <img src="img/trait-droit-menu1.png">
+                <img class="section__menu--img" src="img/trait-gauche-menu1.png">
+                <h4 class="section__menu--titre">Mouvement final</h4>
+                <img class="section__menu--img" src="img/trait-droit-menu1.png">
             </div>
-            <div>
-                <ul>
+            <div class="section__liste">
+                <ul class="section__liste--plat">
                     <li>Macaron noisette et chocolat,glace au caramel brun et sel de Guérande</li>
                     <li>Baba au rhum revisité avec son coulis de citron</li>
                     <li>Tarte au citron meringuée destructurée</li>
@@ -77,15 +77,17 @@
             </div>
         </section>    
         <!--Partie image et titre bas -->
-        <section>
-            <img src="img/note-de-musique.png">
-            <p>La note enchantée</p>
+        <section class="footer__menu">
+            <img class="footer__menu--img" src="img/note-de-musique.png" alt="note de musique">
+            <p class="footer__menu--para">La note enchantée</p>
         </section>    
     </main>
     <!--Pied de page-->
-    <footer class="color">
-        <a href="mentions_legales.html" class="color">Mentions légales</a>
-        <p>Contactez-nous</p>
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__mention" href="mentions_legales.html" class="color">Mentions légales</a>
+            <p class="footer__contact">Contactez-nous</p>
+        </div>
     </footer>
 </body>
 </html>

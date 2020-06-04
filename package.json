@@ -1,0 +1,19 @@
+{
+  "name": "projet3-oc-ohmyfood",
+  "version": "1.0.0",
+  "description": "Dynamisez une page web avec des animations CSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch main.scss:style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xallia/Projet3-OC-Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xallia/Projet3-OC-Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/xallia/Projet3-OC-Ohmyfood#readme"
+}
