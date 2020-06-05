@@ -135,18 +135,14 @@ li {
 }
 
 .menu3 {
-  color: #45993E;
+  color: #6E4CCC;
 }
 
-.menu__image {
-  width: 10em;
-  height: 10em;
-}
 .menu__titre2 {
   font-size: 3em;
   width: 9em;
   margin: 0 auto;
-  background: linear-gradient(to right, #C67412, #A56799, #45993E);
+  background: linear-gradient(to right, #C67412, #A56799, #6E4CCC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -157,13 +153,9 @@ li {
   width: 75%;
   margin: 1.5em auto 6em;
   padding: 5em;
-  color: #79C55A;
+  color: #000000;
 }
 
-.menu__image {
-  width: 10em;
-  height: 10em;
-}
 .menu__titre3 {
   font-size: 3em;
   width: 9em;
