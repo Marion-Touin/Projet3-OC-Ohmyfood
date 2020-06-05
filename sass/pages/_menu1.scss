@@ -4,7 +4,7 @@ body,ul{
     margin: 0;
     padding: 0;
 }
-.main_color{
+.main_color1{
     background-color: $color-menu1;
     width: 85%;
     margin: 1.5em auto 6em;
@@ -22,6 +22,8 @@ h2{
     &__image{
         width: 10em;
         height: 10em;
+        display: flex;
+        margin: 0 auto;
     }
     &__titre{
         font-size: 3em;

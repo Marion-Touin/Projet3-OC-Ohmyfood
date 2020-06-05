@@ -18,3 +18,11 @@
         text-align: end;
     }
 }
+a{
+    &:hover{
+        animation-name: wiggle;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+}
