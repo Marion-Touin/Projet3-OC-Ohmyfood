@@ -219,5 +219,22 @@ li {
   src: local("Devonshire-Regular"), url("../fonts/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/devonshire-v8-latin-regular.woff2") format("woff2"), url("../fonts/devonshire-v8-latin-regular.woff") format("woff"), url("../fonts/devonshire-v8-latin-regular.ttf") format("truetype"), url("../fonts/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
   /* Legacy iOS */
 }
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+  padding: 0;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.mentions {
+  text-align: center;
+  margin: 0 10%;
+}
 
 /*# sourceMappingURL=style.css.map */
