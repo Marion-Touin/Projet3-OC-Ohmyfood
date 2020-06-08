@@ -1,0 +1,92 @@
+.section__btn{
+    text-align: center;
+}
+.btn{
+    border: 2px solid $color-header;
+    background-color: $color-header;
+    margin: 2em;
+    width: 10em;
+    height: 2em;
+    color: $color-titre;
+    font-size: 3em;
+    border-radius: 0.5em;
+    & span{
+        animation-name: pointssuspension;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite;
+      }
+      & span:nth-child(2){
+        animation-delay: 330ms;
+      }
+      & span:nth-child(3){
+        animation-delay: 660ms;
+      }
+}
+.menu1{
+    width: 45em;
+    height: 55em;
+    background-color: $color-menu1;
+    position: relative;
+        &__titre{
+        font-size: 3em;
+        text-align: center;
+    }
+    &__soustitre{
+        font-size: 4em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.menu2{
+    width: 45em;
+    height: 55em;
+    background-color: $color-menu2;
+    position: relative;
+    &__titre{
+        font-size: 3em;
+        text-align: center;
+    }
+    &__soustitre{
+        font-size: 4em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.menu3{
+    width: 45em;
+    height: 55em;
+    background-color: $color-menu3;
+    &__titre{
+        font-size: 3em;
+        text-align: center;
+    }
+    &__soustitre{
+        font-size: 4em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.menu4{
+    width: 45em;
+    height: 55em;
+    background-color: $color-menu4;
+    &__titre{
+        font-size: 3em;
+        text-align: center;
+    }
+    &__soustitre{
+        font-size: 4em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+.block1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10em 0;
+    
+}
+.block2{
+    display: flex;
+    justify-content: space-around;
+}

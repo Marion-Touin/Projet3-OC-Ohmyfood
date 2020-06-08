@@ -4,51 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <style>a {text-decoration: none;}</style>
 </head>
 <body>
-    <!--header-->
-    <header>
-        <h1>ohmyfood</h1>
+    <!--En-tête de page-->
+    <header class="header">
+        <a href="accueil.html"><h1 class="header__titre">ohmyfood</h1></a>
     </header>
     <main>
+        <div class="block1">
         <!--menu 1-->
-        <section>
+        <section class="menu1">
             <a href="menu1.html">
-                <img src="img/note-de-musique.png">
-                <h2>La note enchantée</h2>
-                <h3>Menu</h3>
+                <img class="menu1__img" src="../img/note-de-musique.png">
+                <h2 class="menu1__titre">La note enchantée</h2>
+                <h3 class="menu1__soustitre">menu</h3>
             </a>
         </section>
         <!--menu 2-->
-        <section>
+        <section class="menu2">
             <a href="menu2.html">
-                <h2>Le chic à la française</h2>
-                <h3>Menu</h3>
+                <h2 class="menu2__titre">Le chic à la française</h2>
+                <h3 class="menu2__soustitre">menu</h3>
             </a>
         </section>
-        <!--menu 3-->
-        <section>
-            <a href="menu3.html">
-                <h2>Le délice des papilles</h2>
-                <h3>Menu</h3>
-            </a>
-        </section>
-        <!--menu 4-->
-        <section>
-            <a href="menu4.html">
-                <h2>la palette du goût</h2>
-                <h3>Menu</h3>
-            </a>
-        </section>
-        <!--Bouton prochainement-->
-        <div>
-            <button>Prochainement...</button>
         </div>
-        <!--Pied de page-->
-        <footer>
-            <a href="mentions_legales.html">Mentions légales</a>
-            <p>Contactez-nous</p>
-        </footer>
+        <div class="block2">
+        <!--menu 3-->
+        <section class="menu3">
+            <a href="menu3.html">
+                <h2 class="menu3__titre">Le délice des papilles</h2>
+                <h3 class="menu3__soustitre">menu</h3>
+            </a>
+        </section>
+        
+        <!--menu 4-->
+        <section class="menu4">
+            <a href="menu4.html">
+                <h2 class="menu4__titre">la palette du goût</h2>
+                <h3 class="menu4__soustitre">menu</h3>
+            </a>
+        </section>
+    </div>
+        <!--Bouton prochainement-->
+        <div class="section__btn">
+            <button class="btn">Prochainement<span>.</span><span>.</span><span class=>.</span></button>
+        </div>
+    <!--Pied de page-->
+    <footer class="footer">
+        <div class="footer__container">
+            <a class="footer__mention" href="mentions_legales.html" class="color">Mentions légales</a>
+            <a class="footer__contact" href ="mailto: contact@email.com">Contactez-nous</a>
+        </div>
+    </footer>
     </main>
 </body>
 </html>

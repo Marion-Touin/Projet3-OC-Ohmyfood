@@ -135,15 +135,15 @@ li {
 }
 
 /*Pour se mettre en appétit*/
-.menu1 {
+.section__menu1 {
   color: #C67412;
 }
 
-.menu2 {
+.section__menu2 {
   color: #A56799;
 }
 
-.menu3 {
+.section__menu3 {
   color: #6E4CCC;
 }
 
@@ -209,6 +209,17 @@ li {
     transform: rotate(0deg);
   }
 }
+@keyframes pointssuspension {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* devonshire-regular - latin */
 @font-face {
   font-family: "Devonshire";
@@ -235,6 +246,105 @@ p {
 .mentions {
   text-align: center;
   margin: 0 10%;
+}
+
+.section__btn {
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid #579C87;
+  background-color: #579C87;
+  margin: 2em;
+  width: 10em;
+  height: 2em;
+  color: #FCCA46;
+  font-size: 3em;
+  border-radius: 0.5em;
+}
+.btn span {
+  animation-name: pointssuspension;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+}
+.btn span:nth-child(2) {
+  animation-delay: 330ms;
+}
+.btn span:nth-child(3) {
+  animation-delay: 660ms;
+}
+
+.menu1 {
+  width: 45em;
+  height: 55em;
+  background-color: #FCDFDB;
+  position: relative;
+}
+.menu1__titre {
+  font-size: 3em;
+  text-align: center;
+}
+.menu1__soustitre {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu2 {
+  width: 45em;
+  height: 55em;
+  background-color: #FFF5FE;
+  position: relative;
+}
+.menu2__titre {
+  font-size: 3em;
+  text-align: center;
+}
+.menu2__soustitre {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu3 {
+  width: 45em;
+  height: 55em;
+  background-color: #EDEFEF;
+}
+.menu3__titre {
+  font-size: 3em;
+  text-align: center;
+}
+.menu3__soustitre {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu4 {
+  width: 45em;
+  height: 55em;
+  background-color: #FDFFFD;
+}
+.menu4__titre {
+  font-size: 3em;
+  text-align: center;
+}
+.menu4__soustitre {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.block1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10em 0;
+}
+
+.block2 {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */
