@@ -51,7 +51,7 @@ body, ul {
 }
 
 /*titre entre header et menu*/
-h2 {
+.title {
   font-size: 3.5em;
   text-align: center;
   margin: 0;
@@ -69,6 +69,7 @@ h2 {
   font-size: 3em;
   width: 9em;
   margin: 0 auto;
+  font-family: "Devonshire";
 }
 
 /*Section menu*/
@@ -83,7 +84,7 @@ h2 {
   font-size: 2.5em;
   text-decoration: none;
 }
-.section__menu--titre:hover {
+.section__menu:hover {
   text-decoration: underline;
 }
 .section__menu--img {
@@ -98,6 +99,7 @@ h2 {
   justify-content: space-between;
   margin: 0 auto;
   font-size: 2em;
+  font-family: "Montserrat";
 }
 .section__liste--plat {
   list-style-type: none;
@@ -154,6 +156,7 @@ li {
   background: linear-gradient(to right, #C67412, #A56799, #6E4CCC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script";
 }
 
 /*ensemble de page*/
@@ -225,9 +228,39 @@ li {
   font-family: "Devonshire";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/devonshire-v8-latin-regular.eot");
+  src: url("fonts/devonshire-v8-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Devonshire-Regular"), url("../fonts/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/devonshire-v8-latin-regular.woff2") format("woff2"), url("../fonts/devonshire-v8-latin-regular.woff") format("woff"), url("../fonts/devonshire-v8-latin-regular.ttf") format("truetype"), url("../fonts/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
+  src: local("Devonshire-Regular"), url("fonts/devonshire-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/devonshire-v8-latin-regular.woff2") format("woff2"), url("fonts/devonshire-v8-latin-regular.woff") format("woff"), url("fonts/devonshire-v8-latin-regular.ttf") format("truetype"), url("fonts/devonshire-v8-latin-regular.svg#Devonshire") format("svg");
+  /* Legacy iOS */
+}
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/dancing-script-v14-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("fonts/dancing-script-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/dancing-script-v14-latin-regular.woff2") format("woff2"), url("fonts/dancing-script-v14-latin-regular.woff") format("woff"), url("fonts/dancing-script-v14-latin-regular.ttf") format("truetype"), url("fonts/dancing-script-v14-latin-regular.svg#DancingScript") format("svg");
+  /* Legacy iOS */
+}
+/* kaushan-script-regular - latin */
+@font-face {
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/kaushan-script-v8-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Kaushan Script"), local("KaushanScript-Regular"), url("fonts/kaushan-script-v8-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/kaushan-script-v8-latin-regular.woff2") format("woff2"), url("fonts/kaushan-script-v8-latin-regular.woff") format("woff"), url("fonts/kaushan-script-v8-latin-regular.ttf") format("truetype"), url("fonts/kaushan-script-v8-latin-regular.svg#KaushanScript") format("svg");
+  /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/montserrat-v14-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("fonts/montserrat-v14-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat-v14-latin-regular.woff2") format("woff2"), url("fonts/montserrat-v14-latin-regular.woff") format("woff"), url("fonts/montserrat-v14-latin-regular.ttf") format("truetype"), url("fonts/montserrat-v14-latin-regular.svg#Montserrat") format("svg");
   /* Legacy iOS */
 }
 h1 {
@@ -278,62 +311,56 @@ p {
   width: 45em;
   height: 55em;
   background-color: #FCDFDB;
-  position: relative;
+  text-align: center;
 }
 .menu1__titre {
   font-size: 3em;
-  text-align: center;
 }
 .menu1__soustitre {
-  font-size: 4em;
+  font-size: 3.5em;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .menu2 {
   width: 45em;
   height: 55em;
   background-color: #FFF5FE;
-  position: relative;
+  text-align: center;
 }
 .menu2__titre {
   font-size: 3em;
-  text-align: center;
 }
 .menu2__soustitre {
-  font-size: 4em;
+  font-size: 3.5em;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .menu3 {
   width: 45em;
   height: 55em;
   background-color: #EDEFEF;
+  text-align: center;
 }
 .menu3__titre {
   font-size: 3em;
-  text-align: center;
 }
 .menu3__soustitre {
-  font-size: 4em;
+  font-size: 3.5em;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .menu4 {
   width: 45em;
   height: 55em;
   background-color: #FDFFFD;
+  text-align: center;
 }
 .menu4__titre {
   font-size: 3em;
-  text-align: center;
 }
 .menu4__soustitre {
-  font-size: 4em;
+  font-size: 3.5em;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .block1 {

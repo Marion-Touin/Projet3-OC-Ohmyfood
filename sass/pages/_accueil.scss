@@ -26,58 +26,53 @@
     width: 45em;
     height: 55em;
     background-color: $color-menu1;
-    position: relative;
+    text-align: center;
         &__titre{
         font-size: 3em;
-        text-align: center;
     }
     &__soustitre{
-        font-size: 4em;
+        font-size: 3.5em;
         text-transform: uppercase;
-        text-align: center;
     }
 }
 .menu2{
     width: 45em;
     height: 55em;
     background-color: $color-menu2;
-    position: relative;
+    text-align: center;
     &__titre{
         font-size: 3em;
-        text-align: center;
     }
     &__soustitre{
-        font-size: 4em;
+        font-size: 3.5em;
         text-transform: uppercase;
-        text-align: center;
+
     }
 }
 .menu3{
     width: 45em;
     height: 55em;
     background-color: $color-menu3;
+    text-align: center;
     &__titre{
         font-size: 3em;
-        text-align: center;
     }
     &__soustitre{
-        font-size: 4em;
+        font-size: 3.5em;
         text-transform: uppercase;
-        text-align: center;
     }
 }
 .menu4{
     width: 45em;
     height: 55em;
     background-color: $color-menu4;
+    text-align: center;
     &__titre{
         font-size: 3em;
-        text-align: center;
     }
     &__soustitre{
-        font-size: 4em;
+        font-size: 3.5em;
         text-transform: uppercase;
-        text-align: center;
     }
 }
 .block1{

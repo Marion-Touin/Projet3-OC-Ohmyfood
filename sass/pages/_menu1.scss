@@ -10,7 +10,7 @@ body,ul{
     color: $color-police1;
 }
 /*titre entre header et menu*/
-h2{
+.title{
     font-size: 3.5em;
     text-align: center;
     margin: 0;
@@ -28,6 +28,7 @@ h2{
         font-size: 3em;
         width: 9em;
         margin: 0 auto;
+        font-family: "Devonshire";
     }
 }
 /*Section menu*/
@@ -40,10 +41,10 @@ h2{
     &--titre{
         font-size: 2.5em;
         text-decoration: none;
+        }
         &:hover{
             text-decoration: underline;
         }
-    }
     &--img{
         width: 20em;
         height: 2.5em;
@@ -56,6 +57,7 @@ h2{
     justify-content: space-between;
     margin: 0 auto;
     font-size: 2em;
+    font-family: "Montserrat";
     &--plat{
         list-style-type: none;
     }
