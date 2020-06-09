@@ -18,13 +18,76 @@
 }
 .menu{
     &__titre2{
-        font-size: 3em;
+        font-size: 4em;
         width: 9em;
         margin: 0 auto;
         background: linear-gradient(to right, $color-police2, $color-police3, $color-police4);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; 
         font-family: 'Dancing Script';
-        
+    }
+}
+/*Section menu*/
+.section__variation1{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    &--titre{
+        font-size: 2.5em;
+        font-family: "Montserrat";
+        background: linear-gradient(to top, $color-police2 0%, $color-police2 10%, transparent 10.01%)no-repeat;
+        background-size: 0% 100%;
+        transition: background-size 0.5s;
+        }
+        &--titre:hover{
+            background-size: 100% 100%;
+        }
+    &--img{
+        width: 20em;
+        height: 2.5em;
+    }
+}
+.section__variation2{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    &--titre{
+        font-size: 2.5em;
+        font-family: "Montserrat";
+        background: linear-gradient(to top, $color-police3 0%, $color-police3 10%, transparent 10.01%)no-repeat;
+        background-size: 0% 100%;
+        transition: background-size 0.5s;
+        }
+        &--titre:hover{
+            background-size: 100% 100%;
+        }
+    &--img{
+        width: 20em;
+        height: 2.5em;
+    }
+}
+.section__variation3{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    &--titre{
+        font-size: 2.5em;
+        font-family: "Montserrat";
+        background: linear-gradient(to top, $color-police4 0%, $color-police4 10%, transparent 10.01%)no-repeat;
+        background-size: 0% 100%;
+        transition: background-size 0.5s;
+        }
+        &--titre:hover{
+            background-size: 100% 100%;
+        }
+    &--img{
+        width: 20em;
+        height: 2.5em;
     }
 }

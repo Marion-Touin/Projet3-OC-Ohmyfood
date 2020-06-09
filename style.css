@@ -87,7 +87,7 @@ body, ul {
   background-size: 0% 100%;
   transition: background-size 0.5s;
 }
-.section__menu:hover {
+.section__menu--titre:hover {
   background-size: 100% 100%;
 }
 .section__menu--img {
@@ -154,13 +154,80 @@ li {
 }
 
 .menu__titre2 {
-  font-size: 3em;
+  font-size: 4em;
   width: 9em;
   margin: 0 auto;
   background: linear-gradient(to right, #C67412, #A56799, #6E4CCC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Dancing Script";
+}
+
+/*Section menu*/
+.section__variation1 {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section__variation1--titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to top, #C67412 0%, #C67412 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
+}
+.section__variation1--titre:hover {
+  background-size: 100% 100%;
+}
+.section__variation1--img {
+  width: 20em;
+  height: 2.5em;
+}
+
+.section__variation2 {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section__variation2--titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to top, #A56799 0%, #A56799 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
+}
+.section__variation2--titre:hover {
+  background-size: 100% 100%;
+}
+.section__variation2--img {
+  width: 20em;
+  height: 2.5em;
+}
+
+.section__variation3 {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section__variation3--titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to top, #6E4CCC 0%, #6E4CCC 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
+}
+.section__variation3--titre:hover {
+  background-size: 100% 100%;
+}
+.section__variation3--img {
+  width: 20em;
+  height: 2.5em;
 }
 
 /*ensemble de page*/
@@ -182,6 +249,29 @@ li {
   font-family: "Dancing script";
 }
 
+/*Section menu*/
+.section__variation4 {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section__variation4--titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
+}
+.section__variation4--titre:hover {
+  background-size: 100% 100%;
+}
+.section__variation4--img {
+  width: 20em;
+  height: 2.5em;
+}
+
 /*ensemble de page*/
 .main_color4 {
   background-color: #FDFFFD;
@@ -199,6 +289,28 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script";
+}
+
+.section__variation5 {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section__variation5--titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to top, #202020 0%, #202020 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
+}
+.section__variation5--titre:hover {
+  background-size: 100% 100%;
+}
+.section__variation5--img {
+  width: 20em;
+  height: 2.5em;
 }
 
 @keyframes wiggle {
@@ -313,6 +425,16 @@ p {
   animation-delay: 660ms;
 }
 
+.menu__transition {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 1000ms;
+}
+.menu__transition:hover {
+  transform: scale(1.5);
+  opacity: 0.7;
+}
+
 .menu1 {
   width: 45em;
   height: 55em;
@@ -320,14 +442,16 @@ p {
   text-align: center;
 }
 .menu1__titre {
-  font-size: 5em;
+  font-size: 4em;
   font-family: "Devonshire";
   color: #3D1319;
+  margin: 0;
 }
 .menu1__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
   color: #3D1319;
+  margin: 0.25em;
 }
 
 .menu2 {
@@ -342,11 +466,13 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Dancing Script";
+  margin: 0;
 }
 .menu2__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
   color: #A56799;
+  margin: 0.25em;
 }
 
 .menu3 {
@@ -361,11 +487,13 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Dancing script";
+  margin: 0;
 }
 .menu3__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
   color: #0670F3;
+  margin: 0.25em;
 }
 
 .menu4 {
@@ -380,11 +508,13 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Kaushan Script";
+  margin: 0;
 }
 .menu4__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
   color: #79C55A;
+  margin: 0.25em;
 }
 
 .block1 {

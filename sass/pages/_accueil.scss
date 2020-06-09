@@ -22,20 +22,32 @@
         animation-delay: 660ms;
       }
 }
+.menu__transition{
+
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 1000ms;
+    &:hover{
+        transform: scale(1.5);
+        opacity: 0.7;
+    }
+}
 .menu1{
     width: 45em;
     height: 55em;
     background-color: $color-menu1;
     text-align: center;
         &__titre{
-        font-size: 5em;
+        font-size: 4em;
         font-family: "Devonshire";
         color: $color-police1;
+        margin: 0;
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
         color: $color-police1;
+        margin: 0.25em;
     }
 }
 .menu2{
@@ -49,12 +61,13 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; 
         font-family: 'Dancing Script';
+        margin: 0;
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
         color: $color-police3;
-
+        margin: 0.25em;
     }
 }
 .menu3{
@@ -68,11 +81,13 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: "Dancing script";
+        margin: 0;
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
         color: $color-titre2;
+        margin: 0.25em;
     }
 }
 .menu4{
@@ -86,11 +101,13 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: "Kaushan Script";
+        margin: 0;
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
         color: #79C55A;
+        margin: 0.25em;
     }
 }
 .block1{
