@@ -66,8 +66,8 @@ body, ul {
   margin: 0 auto;
 }
 .menu__titre {
-  font-size: 3em;
-  width: 9em;
+  font-size: 5em;
+  width: 6em;
   margin: 0 auto;
   font-family: "Devonshire";
 }
@@ -82,10 +82,13 @@ body, ul {
 }
 .section__menu--titre {
   font-size: 2.5em;
-  text-decoration: none;
+  font-family: "Montserrat";
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s;
 }
 .section__menu:hover {
-  text-decoration: underline;
+  background-size: 100% 100%;
 }
 .section__menu--img {
   width: 20em;
@@ -98,7 +101,7 @@ body, ul {
   width: 83%;
   justify-content: space-between;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 1.75em;
   font-family: "Montserrat";
 }
 .section__liste--plat {
@@ -126,6 +129,7 @@ li {
 }
 .footer__menu--para {
   font-size: 3.5em;
+  font-family: "Devonshire";
 }
 
 /*ensemble de page*/
@@ -169,12 +173,13 @@ li {
 }
 
 .menu__titre3 {
-  font-size: 3em;
-  width: 9em;
+  font-size: 4em;
+  width: 7.75em;
   margin: 0 auto;
   background: linear-gradient(to right, #0228DD, #0670F3, #89C7F5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Dancing script";
 }
 
 /*ensemble de page*/
@@ -187,12 +192,13 @@ li {
 }
 
 .menu__titre4 {
-  font-size: 3em;
-  width: 9em;
+  font-size: 6em;
+  width: 8em;
   margin: 0 auto;
   background: linear-gradient(to right, #45993E, #79C55A, #B2F478);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Kaushan Script";
 }
 
 @keyframes wiggle {
@@ -314,11 +320,14 @@ p {
   text-align: center;
 }
 .menu1__titre {
-  font-size: 3em;
+  font-size: 5em;
+  font-family: "Devonshire";
+  color: #3D1319;
 }
 .menu1__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
+  color: #3D1319;
 }
 
 .menu2 {
@@ -329,10 +338,15 @@ p {
 }
 .menu2__titre {
   font-size: 3em;
+  background: linear-gradient(to right, #C67412, #A56799, #6E4CCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script";
 }
 .menu2__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
+  color: #A56799;
 }
 
 .menu3 {
@@ -343,10 +357,15 @@ p {
 }
 .menu3__titre {
   font-size: 3em;
+  background: linear-gradient(to right, #0228DD, #0670F3, #89C7F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing script";
 }
 .menu3__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
+  color: #0670F3;
 }
 
 .menu4 {
@@ -357,10 +376,15 @@ p {
 }
 .menu4__titre {
   font-size: 3em;
+  background: linear-gradient(to right, #45993E, #79C55A, #B2F478);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Kaushan Script";
 }
 .menu4__soustitre {
   font-size: 3.5em;
   text-transform: uppercase;
+  color: #79C55A;
 }
 
 .block1 {

@@ -9,11 +9,12 @@
 }
 .menu{
     &__titre4{
-        font-size: 3em;
-        width: 9em;
+        font-size: 6em;
+        width: 8em;
         margin: 0 auto;
         background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-family: "Kaushan Script";
     }
 }

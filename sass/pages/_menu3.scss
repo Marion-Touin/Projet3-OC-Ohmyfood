@@ -9,11 +9,12 @@
 }
 .menu{
     &__titre3{
-        font-size: 3em;
-        width: 9em;
+        font-size: 4em;
+        width: 7.75em;
         margin: 0 auto;
         background: linear-gradient(to right, $color-titre1, $color-titre2, $color-titre3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-family: "Dancing script";
     }
 }

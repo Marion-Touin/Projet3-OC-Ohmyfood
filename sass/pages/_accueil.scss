@@ -28,11 +28,14 @@
     background-color: $color-menu1;
     text-align: center;
         &__titre{
-        font-size: 3em;
+        font-size: 5em;
+        font-family: "Devonshire";
+        color: $color-police1;
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
+        color: $color-police1;
     }
 }
 .menu2{
@@ -42,10 +45,15 @@
     text-align: center;
     &__titre{
         font-size: 3em;
+        background: linear-gradient(to right, $color-police2, $color-police3, $color-police4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        font-family: 'Dancing Script';
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
+        color: $color-police3;
 
     }
 }
@@ -56,10 +64,15 @@
     text-align: center;
     &__titre{
         font-size: 3em;
+        background: linear-gradient(to right, $color-titre1, $color-titre2, $color-titre3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Dancing script";
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
+        color: $color-titre2;
     }
 }
 .menu4{
@@ -69,10 +82,15 @@
     text-align: center;
     &__titre{
         font-size: 3em;
+        background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Kaushan Script";
     }
     &__soustitre{
         font-size: 3.5em;
         text-transform: uppercase;
+        color: #79C55A;
     }
 }
 .block1{
