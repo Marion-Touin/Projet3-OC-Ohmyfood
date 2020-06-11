@@ -23,7 +23,6 @@
       }
 }
 .menu__transition{
-
     cursor: pointer;
     transform: scale(1);
     transition: transform 1000ms;
@@ -33,10 +32,14 @@
     }
 }
 .menu1{
-    width: 45em;
-    height: 55em;
+    width: 35em;
+    height: 40em;
     background-color: $color-menu1;
+    margin-right: 5em;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
         &__titre{
         font-size: 4em;
         font-family: "Devonshire";
@@ -51,10 +54,13 @@
     }
 }
 .menu2{
-    width: 45em;
-    height: 55em;
+    width: 35em;
+    height: 40em;
     background-color: $color-menu2;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     &__titre{
         font-size: 3em;
         background: linear-gradient(to right, $color-police2, $color-police3, $color-police4);
@@ -71,10 +77,14 @@
     }
 }
 .menu3{
-    width: 45em;
-    height: 55em;
+    width: 35em;
+    height: 40em;
     background-color: $color-menu3;
+    margin-right: 5em;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     &__titre{
         font-size: 3em;
         background: linear-gradient(to right, $color-titre1, $color-titre2, $color-titre3);
@@ -91,10 +101,13 @@
     }
 }
 .menu4{
-    width: 45em;
-    height: 55em;
+    width: 35em;
+    height: 40em;
     background-color: $color-menu4;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     &__titre{
         font-size: 3em;
         background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
@@ -112,11 +125,11 @@
 }
 .block1{
     display: flex;
-    justify-content: space-around;
-    padding: 10em 0;
+    padding: 5em 0;
+    justify-content: center;
     
 }
 .block2{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
