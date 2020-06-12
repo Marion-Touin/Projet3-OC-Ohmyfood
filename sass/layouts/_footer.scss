@@ -1,21 +1,24 @@
-@import "../utils/variable/variables";
 .footer{
-    background-color: $color-header;
     &__container{
         display: flex;
         font-size: 3em;
         align-items: center;
-        width: 93%;
         justify-content: space-between;
         margin: 0 auto;
         padding: 1em 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: $color-header;
     }
     &__mention{
         color: $color-titre;
+        margin: 0 1em;
     }
     &__contact{
         color: $color-titre;
         text-align: end;
+        margin: 0 1em;
     }
 }
 a{

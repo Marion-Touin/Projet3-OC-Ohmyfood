@@ -10,24 +10,30 @@
   padding: 0.5em 0;
 }
 
-.footer {
-  background-color: #579C87;
+a {
+  text-decoration: none;
 }
+
 .footer__container {
   display: flex;
   font-size: 3em;
   align-items: center;
-  width: 93%;
   justify-content: space-between;
   margin: 0 auto;
   padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #579C87;
 }
 .footer__mention {
   color: #FCCA46;
+  margin: 0 1em;
 }
 .footer__contact {
   color: #FCCA46;
   text-align: end;
+  margin: 0 1em;
 }
 
 a:hover {
