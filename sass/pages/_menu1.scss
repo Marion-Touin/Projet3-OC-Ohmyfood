@@ -88,4 +88,41 @@ li{
         font-family: "Devonshire";
     }
 }
-
+@media all and (max-width: 1024px){
+    .title{
+        font-size: 1.5em;
+    }
+    .menu{
+        &__image{
+        width: 5em;
+        height: 5em;
+        }
+        &__titre{
+            font-size: 3em;
+        }
+    }
+    .section__menu{
+        &--img{
+            font-size: 0.5em;
+        }
+        &--titre{
+            font-size: 1em;
+        }
+    }
+    .section__liste{
+        &--plat{
+            font-size: 0.5em;
+        }
+        &--prix{
+            font-size: 0.5em;
+        }
+    }
+    .footer__menu{
+        &--img{
+            font-size: 0.75em;
+        }
+        &--para{
+            font-size: 2.5em;
+        }
+    }
+}

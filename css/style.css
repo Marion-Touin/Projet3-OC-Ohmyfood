@@ -54,6 +54,10 @@ a:hover {
   .footer__contact {
     font-size: 0.75em;
   }
+
+  .footer {
+    margin: 5em 0;
+  }
 }
 @media all and (max-width: 748px) {
   .footer__mention {
@@ -160,6 +164,40 @@ li {
   font-family: "Devonshire";
 }
 
+@media all and (max-width: 1024px) {
+  .title {
+    font-size: 1.5em;
+  }
+
+  .menu__image {
+    width: 5em;
+    height: 5em;
+  }
+  .menu__titre {
+    font-size: 3em;
+  }
+
+  .section__menu--img {
+    font-size: 0.5em;
+  }
+  .section__menu--titre {
+    font-size: 1em;
+  }
+
+  .section__liste--plat {
+    font-size: 0.5em;
+  }
+  .section__liste--prix {
+    font-size: 0.5em;
+  }
+
+  .footer__menu--img {
+    font-size: 0.75em;
+  }
+  .footer__menu--para {
+    font-size: 2.5em;
+  }
+}
 /*ensemble de page*/
 .main_color2 {
   background-color: #FFF5FE;
