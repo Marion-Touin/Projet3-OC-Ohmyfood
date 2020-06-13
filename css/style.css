@@ -8,6 +8,7 @@
   margin: 0;
   font-size: 5em;
   padding: 0.5em 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a {
@@ -29,11 +30,13 @@ a {
 .footer__mention {
   color: #FCCA46;
   margin: 0 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .footer__contact {
   color: #FCCA46;
   text-align: end;
   margin: 0 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a:hover {
@@ -43,6 +46,24 @@ a:hover {
   animation-direction: alternate;
 }
 
+@media all and (max-width: 1024px) {
+  .footer__mention {
+    font-size: 0.75em;
+  }
+
+  .footer__contact {
+    font-size: 0.75em;
+  }
+}
+@media all and (max-width: 748px) {
+  .footer__mention {
+    font-size: 0.35em;
+  }
+
+  .footer__contact {
+    font-size: 0.35em;
+  }
+}
 /*ensemble de page*/
 body, ul {
   margin: 0;
@@ -62,6 +83,7 @@ body, ul {
   text-align: center;
   margin: 0;
   padding-top: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /*En-tête menu*/
@@ -437,7 +459,7 @@ p {
   transition: transform 1000ms;
 }
 .menu__transition:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
   opacity: 0.7;
 }
 
@@ -546,6 +568,97 @@ p {
 .block2 {
   display: flex;
   justify-content: center;
+}
+
+@media all and (max-width: 1024px) {
+  .block1 {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .block2 {
+    flex-direction: column;
+  }
+
+  .menu1 {
+    margin: 5em auto;
+  }
+
+  .menu2 {
+    margin: 0 auto;
+  }
+
+  .menu3 {
+    margin: 5em auto;
+  }
+
+  .menu4 {
+    margin: 0 auto;
+  }
+
+  .section__btn {
+    margin-bottom: 5em;
+  }
+}
+@media all and (max-width: 748px) {
+  .menu1 {
+    width: 10em;
+    height: 15em;
+    margin: 2em auto;
+  }
+  .menu1__titre {
+    font-size: 2em;
+  }
+  .menu1__soustitre {
+    font-size: 1em;
+  }
+  .menu1__img {
+    width: 1.5em;
+    height: 2em;
+  }
+
+  .menu2 {
+    width: 10em;
+    height: 15em;
+    margin: 0 auto;
+  }
+  .menu2__titre {
+    font-size: 1.5em;
+  }
+  .menu2__soustitre {
+    font-size: 1em;
+  }
+
+  .menu3 {
+    width: 10em;
+    height: 15em;
+    margin: 2em auto;
+  }
+  .menu3__titre {
+    font-size: 1.5em;
+  }
+  .menu3__soustitre {
+    font-size: 1em;
+  }
+
+  .menu4 {
+    width: 10em;
+    height: 15em;
+    margin: 0 auto;
+  }
+  .menu4__titre {
+    font-size: 1.5em;
+  }
+  .menu4__soustitre {
+    font-size: 1em;
+  }
+
+  .btn {
+    width: 10em;
+    height: 3em;
+    font-size: 1.25em;
+    margin-bottom: 3em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

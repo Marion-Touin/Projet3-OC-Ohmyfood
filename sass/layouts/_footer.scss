@@ -14,11 +14,13 @@
     &__mention{
         color: $color-titre;
         margin: 0 1em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     &__contact{
         color: $color-titre;
         text-align: end;
         margin: 0 1em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
 a{
@@ -27,5 +29,21 @@ a{
         animation-duration: 0.5s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+    }
+}
+@media all and (max-width: 1024px){
+    .footer__mention{
+        font-size: 0.75em;
+    }
+    .footer__contact{
+        font-size: 0.75em;
+    }
+}
+@media all and (max-width: 748px){
+    .footer__mention{
+        font-size: 0.35em;
+    }
+    .footer__contact{
+        font-size: 0.35em;
     }
 }
