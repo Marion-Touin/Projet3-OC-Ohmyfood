@@ -39,3 +39,41 @@
         height: 2.5em;
     }
 }
+@media all and (max-width:748px){
+    .menu{
+        &__titre4{
+            font-size: 1.5em;
+        }
+    }
+    .section__variation5{
+        &--titre{
+            font-size: 0.75em;
+            text-align: center;
+        }
+        &--img{
+            font-size: 0.25em;
+        }
+    }
+    .section__liste{
+        &--plat{
+            font-size: 0.33em;
+            width: 75%;
+        }
+        &--prix{
+            font-size: 0.4em;
+        }
+    }
+    .prix{
+        padding-bottom: 1.75em;
+    }
+    .footer__menu{
+        padding: 0;
+        &--para{
+            font-size: 2em;
+        }
+        &--img{
+            font-size: 0.5em;
+            padding-bottom: 2em;
+        }
+    }
+}
