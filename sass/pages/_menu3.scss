@@ -3,7 +3,7 @@
 .main_color3{
     background-color: $color-menu3;
     width: 75%;
-    margin: 1.5em auto 6em;
+    margin: 1.5em auto 15em;
     padding: 5em;
     color: $color-police5;
 }
@@ -40,7 +40,21 @@
         height: 2.5em;
     }
 }
+@media all and(max-width:1024px){
+    .main_color3{
+        width: 90%;
+        padding: 2em 0;
+    }
+    .section__variation4{
+        width: 100%;
+        text-align: center;
+    }
+}
 @media all and (max-width:748px){
+    .main_color3{
+        padding: 2em 0;
+        margin: 2em auto 10em;
+    }
     .menu{
        &__titre3{
             font-size: 1.5em;
@@ -52,7 +66,7 @@
             text-align: center;
         }
         &--img{
-            font-size: 0.25em;
+            font-size: 0.20em;
         }
     }
     .section__liste{
@@ -61,7 +75,7 @@
             width: 75%;
         }
         &--prix{
-            font-size: 0.4em;
+            font-size: 0.30em;
         }
     }
     .prix{
@@ -76,5 +90,8 @@
             font-size: 0.5em;
             padding-bottom: 2em;
         }
+    }
+    .prix2{
+        padding-bottom: 1.5em;
     }
 }

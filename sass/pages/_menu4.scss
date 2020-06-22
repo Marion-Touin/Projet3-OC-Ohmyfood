@@ -3,13 +3,13 @@
 .main_color4{
     background-color: $color-menu4;
     width: 75%;
-    margin: 1.5em auto 6em;
+    margin: 1.5em auto 15em;
     padding: 5em;
     color: $color-police6;
 }
 .menu{
     &__titre4{
-        font-size: 6em;
+        font-size: 4em;
         width: 8em;
         margin: 0 auto;
         background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
@@ -39,7 +39,21 @@
         height: 2.5em;
     }
 }
+@media all and(max-width:1024px){
+    .main_color4{
+        width: 90%;
+        padding: 2em 0;
+    }
+    .section__variation5{
+        width: 100%;
+        text-align: center;
+    }
+}
 @media all and (max-width:748px){
+    .main_color4{
+        padding: 0;
+        margin: 2em auto 10em;
+    }
     .menu{
         &__titre4{
             font-size: 1.5em;

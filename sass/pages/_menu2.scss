@@ -2,7 +2,7 @@
 .main_color2{
     background-color: $color-menu2;
     width: 75%;
-    margin: 1.5em auto 6em;
+    margin: 1.5em auto 15em;
     padding: 5em;
 }
 /*Pour se mettre en appétit*/
@@ -90,10 +90,27 @@
         height: 2.5em;
     }
 }
+@media all and(max-width:1024px){
+    .main_color2{
+        width: 90%;
+        padding: 2em 0;
+    }
+    .section__variation1, .section__variation2, .section__variation3{
+        width: 100%;
+        text-align: center;
+    }
+    .section__variation3{
+        font-size: 0.75em;
+    }
+}
 @media all and (max-width:748px){
+    .main_color2{
+        padding: 2em 0;
+        margin: 2em auto 10em;
+    }
     .menu{
         &__titre2{
-            font-size: em;
+            font-size: 1.5em;
         }
     }
     .section__variation1, .section__variation2, .section__variation3{
@@ -102,7 +119,7 @@
             text-align: center;
         }
         &--img{
-            font-size: 0.25em;
+            font-size: 0.20em;
         }
     }
     .section__liste{

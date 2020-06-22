@@ -5,8 +5,8 @@ body,ul{
 }
 .main_color1{
     background-color: $color-menu1;
-    width: 85%;
-    margin: 1.5em auto 6em;
+    width: 75%;
+    margin: 1.5em auto 15em;
     color: $color-police1;
 }
 /*titre entre header et menu*/
@@ -90,7 +90,7 @@ li{
 }
 @media all and (max-width: 1024px){
     .title{
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
     .menu{
         &__image{
@@ -127,6 +127,12 @@ li{
     }
 }
 @media all and (max-width:748px){
+    .title{
+        font-size: 1.5em;
+    }
+    .main_color1{
+        margin-bottom: 10em;
+    }
     .menu{
         &__titre{
             font-size: 2em;
@@ -139,7 +145,7 @@ li{
     }
     .section__menu{
         &--img{
-            font-size: 0.25em;
+            font-size: 0.20em;
         }
         &--titre{
             font-size: 0.75em;
