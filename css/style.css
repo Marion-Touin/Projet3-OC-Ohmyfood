@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*Couleurs*/
+/*Polices*/
+/*Couleurs*/
+/*Polices*/
 .header {
   background-color: #579C87;
 }
@@ -80,9 +84,9 @@ body, ul {
 }
 
 .main_color1 {
-  background-color: #FCDFDB;
   width: 75%;
   margin: 1.5em auto 15em;
+  background-color: #FCDFDB;
   color: #3D1319;
 }
 
@@ -256,9 +260,9 @@ li {
 }
 /*ensemble de page*/
 .main_color2 {
-  background-color: #FFF5FE;
   width: 75%;
   margin: 1.5em auto 15em;
+  background-color: #FFF5FE;
   padding: 5em;
 }
 
@@ -409,11 +413,13 @@ li {
     padding-bottom: 2em;
   }
 }
+/*Couleurs*/
+/*Polices*/
 /*ensemble de page*/
 .main_color3 {
-  background-color: #EDEFEF;
   width: 75%;
   margin: 1.5em auto 15em;
+  background-color: #EDEFEF;
   padding: 5em;
   color: #000000;
 }
@@ -425,7 +431,7 @@ li {
   background: linear-gradient(to right, #0228DD, #0670F3, #89C7F5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Dancing script";
+  font-family: "Dancing Script";
   padding: 0 1em;
 }
 
@@ -508,11 +514,13 @@ li {
     padding-bottom: 1.5em;
   }
 }
+/*Couleurs*/
+/*Polices*/
 /*ensemble de page*/
 .main_color4 {
-  background-color: #FDFFFD;
   width: 75%;
   margin: 1.5em auto 15em;
+  background-color: #FDFFFD;
   padding: 5em;
   color: #202020;
 }
@@ -717,6 +725,128 @@ p {
   margin: 0 10% 15em;
 }
 
+/* menu */
+.menu__transition {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 1000ms;
+}
+.menu__transition:hover {
+  transform: scale(1.25);
+  opacity: 0.7;
+}
+
+.menu1 {
+  width: 35em;
+  height: 40em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #FCDFDB;
+  margin-right: 5em;
+}
+.menu1__titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  font-family: "Devonshire";
+  color: #3D1319;
+}
+.menu1__soustitre {
+  font-size: 3.5em;
+  margin: 0.25em;
+  text-transform: uppercase;
+  color: #3D1319;
+  font-family: "Averia Libre";
+}
+
+.menu2 {
+  width: 35em;
+  height: 40em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #FFF5FE;
+}
+.menu2__titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to right, #C67412, #A56799, #6E4CCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script";
+  padding: 0 1em;
+}
+.menu2__soustitre {
+  font-size: 3.5em;
+  margin: 0.25em;
+  color: #A56799;
+  font-family: "Judson";
+}
+
+.menu3 {
+  width: 35em;
+  height: 40em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #EDEFEF;
+  margin-right: 5em;
+}
+.menu3__titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to right, #0228DD, #0670F3, #89C7F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script";
+  padding: 0 1em;
+}
+.menu3__soustitre {
+  font-size: 3.5em;
+  margin: 0.25em;
+  color: #0670F3;
+  font-family: "Kalam";
+}
+
+.menu4 {
+  width: 35em;
+  height: 40em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #FDFFFD;
+}
+.menu4__titre {
+  font-size: 2.5em;
+  font-family: "Montserrat";
+  background: linear-gradient(to right, #45993E, #79C55A, #BEFF7F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Kaushan Script";
+}
+.menu4__soustitre {
+  font-size: 3.5em;
+  margin: 0.25em;
+  color: #79C55A;
+  font-family: "Kalam";
+}
+
+.block1 {
+  display: flex;
+  justify-content: center;
+  padding: 5em 0;
+}
+
+.block2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Prochainement */
 .section__btn {
   text-align: center;
 }
@@ -742,126 +872,6 @@ p {
 }
 .btn span:nth-child(3) {
   animation-delay: 660ms;
-}
-
-.menu__transition {
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform 1000ms;
-}
-.menu__transition:hover {
-  transform: scale(1.25);
-  opacity: 0.7;
-}
-
-.menu1 {
-  width: 35em;
-  height: 40em;
-  background-color: #FCDFDB;
-  margin-right: 5em;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-.menu1__titre {
-  font-size: 4em;
-  font-family: "Devonshire";
-  color: #3D1319;
-  margin: 0;
-}
-.menu1__soustitre {
-  font-size: 3.5em;
-  text-transform: uppercase;
-  color: #3D1319;
-  margin: 0.25em;
-  font-family: "Averia Libre";
-}
-
-.menu2 {
-  width: 35em;
-  height: 40em;
-  background-color: #FFF5FE;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-.menu2__titre {
-  font-size: 3em;
-  background: linear-gradient(to right, #C67412, #A56799, #6E4CCC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Dancing Script";
-  margin: 0;
-  padding: 0 1em;
-}
-.menu2__soustitre {
-  font-size: 3.5em;
-  color: #A56799;
-  margin: 0.25em;
-  font-family: "Judson";
-}
-
-.menu3 {
-  width: 35em;
-  height: 40em;
-  background-color: #EDEFEF;
-  margin-right: 5em;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-.menu3__titre {
-  font-size: 3em;
-  background: linear-gradient(to right, #0228DD, #0670F3, #89C7F5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Dancing script";
-  margin: 0;
-  padding: 0 1em;
-}
-.menu3__soustitre {
-  font-size: 3.5em;
-  color: #0670F3;
-  margin: 0.25em;
-  font-family: "Kalam";
-}
-
-.menu4 {
-  width: 35em;
-  height: 40em;
-  background-color: #FDFFFD;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-}
-.menu4__titre {
-  font-size: 3em;
-  background: linear-gradient(to right, #45993E, #79C55A, #BEFF7F);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Kaushan Script";
-  margin: 0;
-}
-.menu4__soustitre {
-  font-size: 3.5em;
-  color: #79C55A;
-  margin: 0.25em;
-  font-family: "Kalam";
-}
-
-.block1 {
-  display: flex;
-  padding: 5em 0;
-  justify-content: center;
-}
-
-.block2 {
-  display: flex;
-  justify-content: center;
 }
 
 @media all and (max-width: 1024px) {

@@ -1,9 +1,8 @@
 @import "../utils/variable/variables";
 /*ensemble de page*/
 .main_color4{
+    @include main;
     background-color: $color-menu4;
-    width: 75%;
-    margin: 1.5em auto 15em;
     padding: 5em;
     color: $color-police6;
 }
@@ -15,18 +14,13 @@
         background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: "Kaushan Script";
+        font-family: $police6;
     }
 }
 .section__variation5{
-    display: flex;
-    align-items: center;
-    width: 85%;
-    margin: 0 auto;
-    justify-content: space-between;
+    @include variation;
     &--titre{
-        font-size: 2.5em;
-        font-family: "Montserrat";
+        @include titre;
         background: linear-gradient(to top, $color-police6 0%, $color-police6 10%, transparent 10.01%)no-repeat;
         background-size: 0% 100%;
         transition: background-size 0.5s;
@@ -35,8 +29,7 @@
             background-size: 100% 100%;
         }
     &--img{
-        width: 20em;
-        height: 2.5em;
+        @include img;
     }
 }
 @media all and(max-width:1024px){

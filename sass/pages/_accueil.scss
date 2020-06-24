@@ -1,3 +1,89 @@
+@import "../utils/mixins";
+/* menu */
+.menu__transition{
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 1000ms;
+    &:hover{
+        transform: scale(1.25);
+        opacity: 0.7;
+    }
+}
+.menu1{
+    @include menu;
+    background-color: $color-menu1;
+    margin-right: 5em;
+    &__titre{
+        @include titre;
+        font-family: $police1;
+        color: $color-police1;    
+    }
+    &__soustitre{
+        @include soustitre;
+        text-transform: uppercase;
+        color: $color-police1;
+        font-family: $police2;
+    }
+}
+.menu2{
+    @include menu;
+    background-color: $color-menu2;
+    &__titre{
+        @include titre;
+        background: linear-gradient(to right, $color-police2, $color-police3, $color-police4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        font-family: $police3;
+        padding: 0 1em;
+    }
+    &__soustitre{
+        @include soustitre;
+        color: $color-police3;
+        font-family: $police4;
+    }
+}
+.menu3{
+    @include menu;
+    background-color: $color-menu3;
+    margin-right: 5em;
+    &__titre{
+        @include titre;
+        background: linear-gradient(to right, $color-titre1, $color-titre2, $color-titre3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: $police3;
+        padding: 0 1em;
+    }
+    &__soustitre{
+        @include soustitre;
+        color: $color-titre2;
+        font-family: $police5;
+    }
+}
+.menu4{
+    @include menu;
+    background-color: $color-menu4;
+    &__titre{
+        @include titre;
+        background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: $police6;
+    }
+    &__soustitre{
+        @include soustitre;
+        color: $color-titre5;
+        font-family: $police5
+    }
+}
+.block1{
+    @include block;
+    padding: 5em 0;   
+}
+.block2{
+    @include block;
+}
+/* Prochainement */
 .section__btn{
     text-align: center;
 }
@@ -22,120 +108,6 @@
       & span:nth-child(3){
         animation-delay: 660ms;
       }
-}
-.menu__transition{
-    cursor: pointer;
-    transform: scale(1);
-    transition: transform 1000ms;
-    &:hover{
-        transform: scale(1.25);
-        opacity: 0.7;
-    }
-}
-.menu1{
-    width: 35em;
-    height: 40em;
-    background-color: $color-menu1;
-    margin-right: 5em;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-        &__titre{
-        font-size: 4em;
-        font-family: "Devonshire";
-        color: $color-police1;
-        margin: 0;
-    }
-    &__soustitre{
-        font-size: 3.5em;
-        text-transform: uppercase;
-        color: $color-police1;
-        margin: 0.25em;
-        font-family: 'Averia Libre';
-    }
-}
-.menu2{
-    width: 35em;
-    height: 40em;
-    background-color: $color-menu2;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    &__titre{
-        font-size: 3em;
-        background: linear-gradient(to right, $color-police2, $color-police3, $color-police4);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        font-family: 'Dancing Script';
-        margin: 0;
-        padding: 0 1em;
-    }
-    &__soustitre{
-        font-size: 3.5em;
-        color: $color-police3;
-        margin: 0.25em;
-        font-family: 'Judson';
-    }
-}
-.menu3{
-    width: 35em;
-    height: 40em;
-    background-color: $color-menu3;
-    margin-right: 5em;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    &__titre{
-        font-size: 3em;
-        background: linear-gradient(to right, $color-titre1, $color-titre2, $color-titre3);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: "Dancing script";
-        margin: 0;
-        padding: 0 1em;
-    }
-    &__soustitre{
-        font-size: 3.5em;
-        color: $color-titre2;
-        margin: 0.25em;
-        font-family: 'Kalam';
-    }
-}
-.menu4{
-    width: 35em;
-    height: 40em;
-    background-color: $color-menu4;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    &__titre{
-        font-size: 3em;
-        background: linear-gradient(to right, $color-titre4, $color-titre5, $color-titre6);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: "Kaushan Script";
-        margin: 0;
-    }
-    &__soustitre{
-        font-size: 3.5em;
-        color: #79C55A;
-        margin: 0.25em;
-        font-family: 'Kalam';
-    }
-}
-.block1{
-    display: flex;
-    padding: 5em 0;
-    justify-content: center;
-    
-}
-.block2{
-    display: flex;
-    justify-content: center;
 }
 @media all and (max-width: 1024px){
     .block1{

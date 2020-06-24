@@ -4,18 +4,13 @@ body,ul{
     padding: 0;
 }
 .main_color1{
+    @include main;
     background-color: $color-menu1;
-    width: 75%;
-    margin: 1.5em auto 15em;
     color: $color-police1;
 }
 /*titre entre header et menu*/
 .title{
-    font-size: 3.5em;
-    text-align: center;
-    margin: 0;
-    padding-top: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    @include title
 }
 /*En-tête menu*/
 .menu{
@@ -29,19 +24,15 @@ body,ul{
         font-size: 5em;
         width: 6em;
         margin: 0 auto;
-        font-family: "Devonshire";
+        font-family: $police1;
     }
 }
 /*Section menu*/
 .section__menu{
-    display: flex;
-    align-items: center;
-    width: 85%;
-    margin: 0 auto;
-    justify-content: space-between;
+    @include variation;
     &--titre{
         font-size: 2.5em;
-        font-family: "Montserrat";
+        font-family: $police7;
         background: linear-gradient(to top, $color-police1 0%, $color-police1 10%, transparent 10.01%)no-repeat;
         background-size: 0% 100%;
         transition: background-size 0.5s;
@@ -51,18 +42,12 @@ body,ul{
             text-align: center;
         }
     &--img{
-        width: 20em;
-        height: 2.5em;
+        @include img;
     }
 }
 /*Section liste plats et prix*/
 .section__liste{
-    display: flex;
-    width: 83%;
-    justify-content: space-between;
-    margin: 0 auto;
-    font-size: 1.75em;
-    font-family: "Montserrat";
+    @include liste;
     &--plat{
         list-style-type: none;
     }
@@ -86,7 +71,7 @@ li{
     }
     &--para{
         font-size: 3.5em;
-        font-family: "Devonshire";
+        font-family: $police1;
     }
 }
 @media all and (max-width: 1024px){

@@ -1,0 +1,54 @@
+@mixin menu{
+    width: 35em;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+@mixin titre{
+    font-size: 3em;
+    margin: 0;
+}
+@mixin soustitre{
+    font-size: 3.5em;
+    margin: 0.25em;  
+}
+@mixin block{
+    display: flex;
+    justify-content: center; 
+}
+@mixin main{
+    width: 75%;
+    margin: 1.5em auto 15em;
+}
+@mixin title{
+    font-size: 3.5em;
+    text-align: center;
+    margin: 0;
+    padding-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+@mixin variation{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+@mixin img{
+    width: 20em;
+    height: 2.5em;
+}
+@mixin liste{
+    display: flex;
+    width: 83%;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1.75em;
+    font-family: "Montserrat";
+}
+@mixin titre{
+    font-size: 2.5em;
+    font-family: $police7;  
+}

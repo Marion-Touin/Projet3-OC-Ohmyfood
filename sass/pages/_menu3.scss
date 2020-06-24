@@ -1,9 +1,8 @@
 @import "../utils/variable/variables";
 /*ensemble de page*/
 .main_color3{
+    @include main;
     background-color: $color-menu3;
-    width: 75%;
-    margin: 1.5em auto 15em;
     padding: 5em;
     color: $color-police5;
 }
@@ -15,20 +14,15 @@
         background: linear-gradient(to right, $color-titre1, $color-titre2, $color-titre3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: "Dancing script";
+        font-family: $police3;
         padding: 0 1em;
     }
 }
 /*Section menu*/
 .section__variation4{
-    display: flex;
-    align-items: center;
-    width: 85%;
-    margin: 0 auto;
-    justify-content: space-between;
+    @include variation;
     &--titre{
-        font-size: 2.5em;
-        font-family: "Montserrat";
+        @include titre;
         background: linear-gradient(to top, $color-police5 0%, $color-police5 10%, transparent 10.01%)no-repeat;
         background-size: 0% 100%;
         transition: background-size 0.5s;
@@ -37,8 +31,7 @@
             background-size: 100% 100%;
         }
     &--img{
-        width: 20em;
-        height: 2.5em;
+        @include img;
     }
 }
 @media all and(max-width:1024px){
