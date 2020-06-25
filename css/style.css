@@ -210,7 +210,7 @@ li {
   }
 
   .main_color1 {
-    margin-bottom: 10em;
+    margin-bottom: 3em;
   }
 
   .menu__titre {
@@ -893,10 +893,6 @@ p {
 
   .menu4 {
     margin: 0 auto;
-  }
-
-  .section__btn {
-    margin-bottom: 5em;
   }
 }
 @media all and (max-width: 748px) {
