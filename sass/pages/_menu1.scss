@@ -112,16 +112,13 @@ li{
             font-size: 2.5em;
         }
     }
-    .main_color1{
-        margin: 1.5em auto 3em;
-    }
 }
 @media all and (max-width:748px){
     .title{
         font-size: 1.5em;
     }
     .main_color1{
-        margin-bottom: 3em;
+        margin-bottom: 10em;
     }
     .menu{
         &__titre{
